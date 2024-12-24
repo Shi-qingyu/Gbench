@@ -2,8 +2,6 @@ Pillow
 numpy<2.0.0
 matplotlib
 timm>=0.9
-torch>=1.12,<2.0.0
-torchvision>=0.13,<0.16.0
 wheel
 cython
 tensorboard

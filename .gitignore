@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.DS_Store
+.vscode
 
 # C extensions
 *.so
@@ -173,3 +174,5 @@ prepublish-ci/*
 
 # image suite
 vbench2_beta_i2v/data
+
+evaluation_results
