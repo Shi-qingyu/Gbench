@@ -62,7 +62,7 @@ def dino_transform_Image(n_px):
 
 def tag2text_transform(n_px):
     normalize = Normalize(mean=[0.485, 0.456, 0.406],
-                                        std=[0.229, 0.224, 0.225])
+                           std=[0.229, 0.224, 0.225])
     return Compose([ToPILImage(),Resize((n_px, n_px), antialias=False),ToTensor(),normalize])
 
 def get_frame_indices(num_frames, vlen, sample='rand', fix_start=None, input_fps=1, max_num_frames=-1):

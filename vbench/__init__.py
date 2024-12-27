@@ -148,9 +148,9 @@ class VBench(object):
                 evaluate_func = getattr(dimension_module, f'compute_{dimension}')
             except Exception as e:
                 raise NotImplementedError(f'UnImplemented dimension {dimension}!, {e}')
-            submodules_list = submodules_dict[dimension]
+            submodule_dict = submodules_dict[dimension]
             print0(f'cur_full_info_path: {cur_full_info_path}') # TODO: to delete
-            results = evaluate_func(cur_full_info_path, self.device, submodules_list, **kwargs)
+            results = evaluate_func(cur_full_info_path, self.device, submodule_dict, **kwargs)
             results_dict[dimension] = results
         output_name = os.path.join(self.output_path, name+'_eval_results.json')
         if get_rank() == 0:
