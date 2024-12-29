@@ -1,100 +1,90 @@
-A serene mountain lake in autumn, reflections shimmering on water, in Monet style
-A bustling city street at night, neon lights glowing, in cyberpunk style
-A tranquil forest path in summer, sunlight filtering through leaves, watercolor painting
-A snowy village scene in winter, smoke rising from chimneys, oil painting
-A vibrant sunflower field in summer, bees buzzing around, in impressionist style
-A quiet countryside road in spring, blooming trees lining the path, in pastel colors
-A majestic waterfall cascading into a pool, surrounded by lush greenery, in realism
-A desert landscape at sunset, dunes stretching to the horizon, in minimalistic style
-A cozy cabin by the lake, smoke curling from the chimney, in rustic style
-A lively marketplace in a historic town, colorful stalls and crowds, in folk art style
-A foggy morning in a dense forest, mist enveloping the trees, black and white
-A tropical island beach at sunset, palm trees silhouetted against the sky, in vibrant colors
-A starry night sky over a calm ocean, Milky Way visible, in astrophotography style
-A quaint European alleyway in spring, flowers blooming in window boxes, in vintage style
-A dramatic cliffside view overlooking the sea, waves crashing below, in expressionist style
-A lively carnival with rides and lights, people enjoying the festivities, in animated style
-A peaceful Zen garden with raked sand and stone arrangements, in traditional Japanese style
-A bustling harbor with ships and cranes, under a cloudy sky, in steampunk style
-A golden wheat field swaying in the breeze, under a clear blue sky, in rustic oil painting
-A mystical enchanted forest with glowing flora, in fantasy art style
-A serene lakeside dock at dawn, mist rising from the water, in soft pastel colors
-A vibrant coral reef teeming with marine life, in hyper-realistic style
-A historic castle on a hill, surrounded by autumn foliage, in romanticism style
-A futuristic cityscape with towering skyscrapers, in sci-fi style
-A peaceful meadow with wildflowers and butterflies, in delicate watercolor
-A dramatic lightning storm over a desert, in high contrast black and white
-A charming countryside barn surrounded by haystacks, in rustic farmhouse style
-A lively jazz club interior, musicians performing on stage, in noir style
-A tranquil koi pond with blooming lotus flowers, in traditional Asian ink painting
-A vibrant autumn park scene with falling leaves, in impressionist brushwork
-A serene beach at dawn, seashells scattered on the sand, in soft morning light
-A grand cathedral interior with stained glass windows, in gothic style
-A peaceful riverbend surrounded by autumn trees, in realistic oil painting
-A bustling street market in Asia, lanterns lighting up the night, in vibrant colors
-A quiet library with tall bookshelves and reading nooks, in classic illustration style
-A lush vineyard during harvest season, in warm, rich tones
-A solitary lighthouse on a rocky coast, waves crashing below, in dramatic lighting
-A vibrant spring garden with blooming tulips, in botanical illustration style
-A tranquil snowy forest path, footprints leading through the trees, in monochrome
-A lively street parade with floats and dancers, in festive colors
-A serene desert oasis with palm trees and a clear pool, in realistic detail
-A picturesque harbor at twilight, boats gently swaying, in romantic hues
-A tranquil bamboo forest with sunlight streaming through, in minimalist style
-A bustling urban skyline during sunset, skyscrapers reflecting light, in modern art style
-A peaceful rural landscape with rolling hills and grazing sheep, in pastoral style
-A vibrant underwater scene with colorful fish and coral, in vivid colors
-A serene mountain peak covered in snow, under a clear blue sky, in fine detail
-A lively beach volleyball game on a sunny day, in dynamic action style
-A tranquil morning in a Japanese tea garden, cherry blossoms in bloom, in traditional style
-A bustling train station with travelers and steam engines, in vintage sepia tones
-A peaceful autumn forest with a carpet of fallen leaves, in soft watercolor
-A dramatic volcanic landscape with flowing lava, in intense colors
-A charming seaside village with colorful houses, in quaint illustration style
-A serene twilight scene with fireflies in a meadow, in magical realism
-A vibrant autumn harvest scene with pumpkins and gourds, in rich earthy tones
-A tranquil snowy mountain lake, perfectly still water reflecting the peaks, in hyper-realistic style
-A lively street café in Paris, people enjoying their coffee, in romantic impressionism
-A peaceful riverside bench surrounded by blooming flowers, in soft pastel hues
-A dramatic seascape with towering waves and dark clouds, in moody tones
-A vibrant spring festival with colorful banners and lanterns, in festive illustration style
-A serene sunrise over a misty valley, in soft, ethereal colors
-A bustling fish market at dawn, fresh catches displayed, in detailed realism
-A tranquil garden pond with lily pads and dragonflies, in delicate watercolor
-A vibrant cityscape at night with illuminated skyscrapers, in neon colors
-A peaceful countryside farmhouse surrounded by blooming gardens, in rustic charm style
-A dramatic thunderstorm over a vast plain, in high contrast and dark tones
-A lively street art scene with colorful murals and graffiti, in urban art style
-A serene snowy evening with twinkling lights on houses, in cozy tones
-A vibrant spring meadow with butterflies and wildflowers, in bright, cheerful colors
-A tranquil mountain stream with clear, flowing water, in naturalistic detail
-A bustling harbor at sunrise with fishing boats, in warm morning hues
-A peaceful forest glade with sunbeams piercing through the canopy, in enchanting style
-A vibrant autumn skyline with colorful leaves and falling petals, in expressive brushwork
-A serene coastal lighthouse under a starry night, in celestial tones
-A lively summer carnival with rides and games, in joyful, vibrant colors
-A tranquil winter landscape with snow-covered trees and a frozen pond, in serene tones
-A dramatic canyon view with layered rock formations, in bold, striking colors
-A vibrant spring orchard with blossoming fruit trees, in fresh, lively hues
-A peaceful lakeside sunset with silhouettes of trees, in warm, glowing colors
-A bustling urban park with people enjoying the day, in dynamic, colorful style
-A serene desert sunset with vibrant orange and pink skies, in dramatic hues
-A lively street fair with colorful tents and entertainers, in festive illustration style
-A tranquil snowy mountain scene with a clear blue sky, in crisp, detailed realism
-A vibrant autumn forest with golden leaves and winding paths, in rich, warm tones
-A peaceful riverside picnic setup with blankets and baskets, in inviting, cozy style
-A dramatic coastal cliff during a storm, waves crashing fiercely, in intense colors
-A vibrant spring sunrise over blooming fields, in radiant, uplifting hues
-A serene night scene with a full moon over a quiet lake, in luminous tones
-A lively urban skyline with colorful lights reflecting on water, in modern art style
-A peaceful garden bench surrounded by flowering plants, in soft, harmonious colors
-A dramatic winter storm over a frozen landscape, in stark, powerful tones
-A vibrant springtime park with blooming flowers and green lawns, in cheerful colors
-A tranquil sunrise over a calm ocean, with gentle waves and pastel skies, in serene style
-A lively street market with vibrant stalls and bustling crowds, in energetic illustration style
-A peaceful snowy cabin in the woods, smoke rising from the chimney, in cozy, warm tones
-A dramatic sunset over rolling hills, with shadows stretching long, in striking colors
-A vibrant spring garden with a variety of colorful blooms, in lush, detailed style
-A serene evening by the river with lanterns floating on water, in magical tones
-A lively urban street at twilight with illuminated signs, in dynamic, colorful style
-A peaceful dawn in a misty valley, with soft light and tranquil atmosphere, in ethereal watercolor
+A beautiful coastal beach in spring, waves lapping on sand, Van Gogh style
+A beautiful coastal beach in spring, waves lapping on sand, oil painting
+A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo
+A beautiful coastal beach in spring, waves lapping on sand, black and white
+A beautiful coastal beach in spring, waves lapping on sand, pixel art
+A beautiful coastal beach in spring, waves lapping on sand, in cyberpunk style
+A beautiful coastal beach in spring, waves lapping on sand, animated style
+A beautiful coastal beach in spring, waves lapping on sand, watercolor painting
+A beautiful coastal beach in spring, waves lapping on sand, surrealism style
+The bund Shanghai, Van Gogh style
+The bund Shanghai, oil painting
+The bund Shanghai by Hokusai, in the style of Ukiyo
+The bund Shanghai, black and white
+The bund Shanghai, pixel art
+The bund Shanghai, in cyberpunk style
+The bund Shanghai, animated style
+The bund Shanghai, watercolor painting
+The bund Shanghai, surrealism style
+a shark is swimming in the ocean, Van Gogh style
+a shark is swimming in the ocean, oil painting
+a shark is swimming in the ocean by Hokusai, in the style of Ukiyo
+a shark is swimming in the ocean, black and white
+a shark is swimming in the ocean, pixel art
+a shark is swimming in the ocean, in cyberpunk style
+a shark is swimming in the ocean, animated style
+a shark is swimming in the ocean, watercolor painting
+a shark is swimming in the ocean, surrealism style
+A panda drinking coffee in a cafe in Paris, Van Gogh style
+A panda drinking coffee in a cafe in Paris, oil painting
+A panda drinking coffee in a cafe in Paris by Hokusai, in the style of Ukiyo
+A panda drinking coffee in a cafe in Paris, black and white
+A panda drinking coffee in a cafe in Paris, pixel art
+A panda drinking coffee in a cafe in Paris, in cyberpunk style
+A panda drinking coffee in a cafe in Paris, animated style
+A panda drinking coffee in a cafe in Paris, watercolor painting
+A panda drinking coffee in a cafe in Paris, surrealism style
+A cute happy Corgi playing in park, sunset, Van Gogh style
+A cute happy Corgi playing in park, sunset, oil painting
+A cute happy Corgi playing in park, sunset by Hokusai, in the style of Ukiyo
+A cute happy Corgi playing in park, sunset, black and white
+A cute happy Corgi playing in park, sunset, pixel art
+A cute happy Corgi playing in park, sunset, in cyberpunk style
+A cute happy Corgi playing in park, sunset, animated style
+A cute happy Corgi playing in park, sunset, watercolor painting
+A cute happy Corgi playing in park, sunset, surrealism style
+Gwen Stacy reading a book, Van Gogh style
+Gwen Stacy reading a book, oil painting
+Gwen Stacy reading a book by Hokusai, in the style of Ukiyo
+Gwen Stacy reading a book, black and white
+Gwen Stacy reading a book, pixel art
+Gwen Stacy reading a book, in cyberpunk style
+Gwen Stacy reading a book, animated style
+Gwen Stacy reading a book, watercolor painting
+Gwen Stacy reading a book, surrealism style
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, Van Gogh style
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, oil painting
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background by Hokusai, in the style of Ukiyo
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, black and white
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, pixel art
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, in cyberpunk style
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, animated style
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, watercolor painting
+A boat sailing leisurely along the Seine River with the Eiffel Tower in background, surrealism style
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, Van Gogh style
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, oil painting
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas by Hokusai, in the style of Ukiyo
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, black and white
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, pixel art
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, in cyberpunk style
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, animated style
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, watercolor painting
+A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, surrealism style
+An astronaut flying in space, Van Gogh style
+An astronaut flying in space, oil painting
+An astronaut flying in space by Hokusai, in the style of Ukiyo
+An astronaut flying in space, black and white
+An astronaut flying in space, pixel art
+An astronaut flying in space, in cyberpunk style
+An astronaut flying in space, animated style
+An astronaut flying in space, watercolor painting
+An astronaut flying in space, surrealism style
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, Van Gogh style
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, oil painting
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks by Hokusai, in the style of Ukiyo
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, black and white
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pixel art
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, in cyberpunk style
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, animated style
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, watercolor painting
+Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, surrealism style

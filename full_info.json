@@ -3457,7 +3457,6 @@
     {
         "prompt_en": "an umbrella",
         "dimension": [
-            "object_class",
             "object_class"
         ],
         "auxiliary_info": {
@@ -4046,226 +4045,6 @@
         "auxiliary_info": {
             "object_class": {
                 "object": "toothbrush"
-            }
-        }
-    },
-    {
-        "prompt_en": "a lamp",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "lamp"
-            }
-        }
-    },
-    {
-        "prompt_en": "a bookshelf",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "bookshelf"
-            }
-        }
-    },
-    {
-        "prompt_en": "a mirror",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "mirror"
-            }
-        }
-    },
-    {
-        "prompt_en": "a rug",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "rug"
-            }
-        }
-    },
-    {
-        "prompt_en": "a pillow",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "pillow"
-            }
-        }
-    },
-    {
-        "prompt_en": "a blanket",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "blanket"
-            }
-        }
-    },
-    {
-        "prompt_en": "a curtain",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "curtain"
-            }
-        }
-    },
-    {
-        "prompt_en": "a picture frame",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "picture frame"
-            }
-        }
-    },
-    {
-        "prompt_en": "a candle",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "candle"
-            }
-        }
-    },
-    {
-        "prompt_en": "a fan",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "fan"
-            }
-        }
-    },
-    {
-        "prompt_en": "a stapler",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "stapler"
-            }
-        }
-    },
-    {
-        "prompt_en": "a printer",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "printer"
-            }
-        }
-    },
-    {
-        "prompt_en": "a broom",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "broom"
-            }
-        }
-    },
-    {
-        "prompt_en": "a mop",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "mop"
-            }
-        }
-    },
-    {
-        "prompt_en": "a trash can",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "trash can"
-            }
-        }
-    },
-    {
-        "prompt_en": "a screwdriver",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "screwdriver"
-            }
-        }
-    },
-    {
-        "prompt_en": "a hammer",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "hammer"
-            }
-        }
-    },
-    {
-        "prompt_en": "a kettle",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "kettle"
-            }
-        }
-    },
-    {
-        "prompt_en": "a blender",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "blender"
-            }
-        }
-    },
-    {
-        "prompt_en": "a globe",
-        "dimension": [
-            "object_class"
-        ],
-        "auxiliary_info": {
-            "object_class": {
-                "object": "globe"
             }
         }
     },
@@ -7670,17 +7449,6 @@
         ]
     },
     {
-        "prompt_en": "a bird and a cat",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bird and cat"
-            }
-        }
-    },
-    {
         "prompt_en": "a cat and a dog",
         "dimension": [
             "multiple_objects"
@@ -7688,6 +7456,941 @@
         "auxiliary_info": {
             "multiple_objects": {
                 "object": "cat and dog"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bicycle",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bicycle"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a car",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and car"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a motorcycle",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and motorcycle"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and an airplane",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and airplane"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bus",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bus"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a train",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and train"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a truck",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and truck"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a boat",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and boat"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a traffic light",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and traffic light"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a fire hydrant",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and fire hydrant"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a stop sign",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and stop sign"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a parking meter",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and parking meter"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bench",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bench"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bird",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bird"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a horse",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and horse"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a sheep",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and sheep"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a cow",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and cow"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and an elephant",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and elephant"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bear",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bear"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a zebra",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and zebra"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a giraffe",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and giraffe"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a backpack",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and backpack"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and an umbrella",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and umbrella"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a handbag",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and handbag"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a tie",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and tie"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a suitcase",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and suitcase"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a frisbee",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and frisbee"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and skis",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and skis"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a snowboard",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and snowboard"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a sports ball",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and sports ball"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a kite",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and kite"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a baseball bat",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and baseball bat"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a baseball glove",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and baseball glove"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a skateboard",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and skateboard"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a surfboard",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and surfboard"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a tennis racket",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and tennis racket"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bottle",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bottle"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a wine glass",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and wine glass"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a cup",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and cup"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a fork",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and fork"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a knife",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and knife"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a spoon",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and spoon"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bowl",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bowl"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a banana",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and banana"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and an apple",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and apple"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a sandwich",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and sandwich"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and an orange",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and orange"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and broccoli",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and broccoli"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a carrot",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and carrot"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a hot dog",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and hot dog"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a pizza",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and pizza"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a donut",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and donut"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a cake",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and cake"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a chair",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and chair"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a couch",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and couch"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a potted plant",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and potted plant"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a bed",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and bed"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a dining table",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and dining table"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a toilet",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and toilet"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a tv",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and tv"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a laptop",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and laptop"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a mouse",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and mouse"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a remote",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and remote"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a keyboard",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and keyboard"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a cell phone",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and cell phone"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a microwave",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and microwave"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and an oven",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and oven"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a toaster",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and toaster"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a sink",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and sink"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cat and a refrigerator",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cat and refrigerator"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a cat",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and cat"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a bicycle",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and bicycle"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a car",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and car"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a motorcycle",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and motorcycle"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and an airplane",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and airplane"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a bus",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and bus"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a train",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and train"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a truck",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and truck"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a boat",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and boat"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a traffic light",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and traffic light"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a fire hydrant",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and fire hydrant"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a stop sign",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and stop sign"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a parking meter",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and parking meter"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a bench",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and bench"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dog and a bird",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "dog and bird"
             }
         }
     },
@@ -7703,1069 +8406,145 @@
         }
     },
     {
-        "prompt_en": "a horse and a sheep",
+        "prompt_en": "a dog and a sheep",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "horse and sheep"
+                "object": "dog and sheep"
             }
         }
     },
     {
-        "prompt_en": "a sheep and a cow",
+        "prompt_en": "a dog and a cow",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "sheep and cow"
+                "object": "dog and cow"
             }
         }
     },
     {
-        "prompt_en": "a cow and an elephant",
+        "prompt_en": "a dog and an elephant",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "cow and elephant"
+                "object": "dog and elephant"
             }
         }
     },
     {
-        "prompt_en": "an elephant and a bear",
+        "prompt_en": "a dog and a bear",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "elephant and bear"
+                "object": "dog and bear"
             }
         }
     },
     {
-        "prompt_en": "a bear and a zebra",
+        "prompt_en": "a dog and a zebra",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "bear and zebra"
+                "object": "dog and zebra"
             }
         }
     },
     {
-        "prompt_en": "a zebra and a giraffe",
+        "prompt_en": "a dog and a giraffe",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "zebrand giraffe"
+                "object": "dog and giraffe"
             }
         }
     },
     {
-        "prompt_en": "a giraffe and a bird",
+        "prompt_en": "a dog and a backpack",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "giraffe and bird"
+                "object": "dog and backpack"
             }
         }
     },
     {
-        "prompt_en": "a chair and a couch",
+        "prompt_en": "a dog and an umbrella",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "chair and couch"
+                "object": "dog and umbrella"
             }
         }
     },
     {
-        "prompt_en": "a couch and a potted plant",
+        "prompt_en": "a dog and a handbag",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "couch and potted plant"
+                "object": "dog and handbag"
             }
         }
     },
     {
-        "prompt_en": "a potted plant and a tv",
+        "prompt_en": "a dog and a tie",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "potted plant and tv"
+                "object": "dog and tie"
             }
         }
     },
     {
-        "prompt_en": "a tv and a laptop",
+        "prompt_en": "a dog and a suitcase",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "tv and laptop"
+                "object": "dog and suitcase"
             }
         }
     },
     {
-        "prompt_en": "a laptop and a remote",
+        "prompt_en": "a dog and a frisbee",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "laptop and remote"
+                "object": "dog and frisbee"
             }
         }
     },
     {
-        "prompt_en": "a remote and a keyboard",
+        "prompt_en": "a dog and skis",
         "dimension": [
             "multiple_objects"
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "remote and keyboard"
-            }
-        }
-    },
-    {
-        "prompt_en": "a keyboard and a cell phone",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "keyboard and cell phone"
-            }
-        }
-    },
-    {
-        "prompt_en": "a cell phone and a book",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "cell phone and book"
-            }
-        }
-    },
-    {
-        "prompt_en": "a book and a clock",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "book and clock"
-            }
-        }
-    },
-    {
-        "prompt_en": "a clock and a backpack",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "clock and backpack"
-            }
-        }
-    },
-    {
-        "prompt_en": "a backpack and an umbrella",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "backpack and umbrella"
-            }
-        }
-    },
-    {
-        "prompt_en": "an umbrella and a handbag",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "umbrelland handbag"
-            }
-        }
-    },
-    {
-        "prompt_en": "a handbag and a tie",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "handbag and tie"
-            }
-        }
-    },
-    {
-        "prompt_en": "a tie and a suitcase",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "tie and suitcase"
-            }
-        }
-    },
-    {
-        "prompt_en": "a suitcase and a vase",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "suitcase and vase"
-            }
-        }
-    },
-    {
-        "prompt_en": "a vase and scissors",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "vase and scissors"
-            }
-        }
-    },
-    {
-        "prompt_en": "scissors and a teddy bear",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "scissors and teddy bear"
-            }
-        }
-    },
-    {
-        "prompt_en": "a teddy bear and a frisbee",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "teddy bear and frisbee"
-            }
-        }
-    },
-    {
-        "prompt_en": "a frisbee and skis",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "frisbee and skis"
-            }
-        }
-    },
-    {
-        "prompt_en": "skis and a snowboard",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "skis and snowboard"
-            }
-        }
-    },
-    {
-        "prompt_en": "a snowboard and a sports ball",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "snowboard and sports ball"
-            }
-        }
-    },
-    {
-        "prompt_en": "a sports ball and a kite",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "sports ball and kite"
-            }
-        }
-    },
-    {
-        "prompt_en": "a kite and a baseball bat",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "kite and baseball bat"
-            }
-        }
-    },
-    {
-        "prompt_en": "a baseball bat and a baseball glove",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "baseball bat and baseball glove"
-            }
-        }
-    },
-    {
-        "prompt_en": "a baseball glove and a skateboard",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "baseball glove and skateboard"
-            }
-        }
-    },
-    {
-        "prompt_en": "a skateboard and a surfboard",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "skateboard and surfboard"
-            }
-        }
-    },
-    {
-        "prompt_en": "a surfboard and a tennis racket",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "surfboard and tennis racket"
-            }
-        }
-    },
-    {
-        "prompt_en": "a tennis racket and a bottle",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "tennis racket and bottle"
-            }
-        }
-    },
-    {
-        "prompt_en": "a bottle and a chair",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bottle and chair"
-            }
-        }
-    },
-    {
-        "prompt_en": "an airplane and a train",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "airplane and train"
-            }
-        }
-    },
-    {
-        "prompt_en": "a train and a boat",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "train and boat"
-            }
-        }
-    },
-    {
-        "prompt_en": "a boat and an airplane",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "boat and airplane"
-            }
-        }
-    },
-    {
-        "prompt_en": "a bicycle and a car",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bicycle and car"
-            }
-        }
-    },
-    {
-        "prompt_en": "a car and a motorcycle",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "car and motorcycle"
-            }
-        }
-    },
-    {
-        "prompt_en": "a motorcycle and a bus",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "motorcycle and bus"
-            }
-        }
-    },
-    {
-        "prompt_en": "a bus and a traffic light",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bus and traffic light"
-            }
-        }
-    },
-    {
-        "prompt_en": "a traffic light and a fire hydrant",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "traffic light and fire hydrant"
-            }
-        }
-    },
-    {
-        "prompt_en": "a fire hydrant and a stop sign",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "fire hydrant and stop sign"
-            }
-        }
-    },
-    {
-        "prompt_en": "a stop sign and a parking meter",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "stop sign and parking meter"
-            }
-        }
-    },
-    {
-        "prompt_en": "a parking meter and a truck",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "parking meter and truck"
-            }
-        }
-    },
-    {
-        "prompt_en": "a truck and a bicycle",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "truck and bicycle"
-            }
-        }
-    },
-    {
-        "prompt_en": "a toilet and a hair drier",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "toilet and hair drier"
-            }
-        }
-    },
-    {
-        "prompt_en": "a hair drier and a toothbrush",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "hair drier and toothbrush"
-            }
-        }
-    },
-    {
-        "prompt_en": "a toothbrush and a sink",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "toothbrush and sink"
-            }
-        }
-    },
-    {
-        "prompt_en": "a sink and a toilet",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "sink and toilet"
-            }
-        }
-    },
-    {
-        "prompt_en": "a wine glass and a chair",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "wine glass and chair"
-            }
-        }
-    },
-    {
-        "prompt_en": "a cup and a couch",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "cup and couch"
-            }
-        }
-    },
-    {
-        "prompt_en": "a fork and a potted plant",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "fork and potted plant"
-            }
-        }
-    },
-    {
-        "prompt_en": "a knife and a tv",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "knife and tv"
-            }
-        }
-    },
-    {
-        "prompt_en": "a spoon and a laptop",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "spoon and laptop"
-            }
-        }
-    },
-    {
-        "prompt_en": "a bowl and a remote",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bowl and remote"
-            }
-        }
-    },
-    {
-        "prompt_en": "a banana and a keyboard",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bananand keyboard"
-            }
-        }
-    },
-    {
-        "prompt_en": "an apple and a cell phone",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "apple and cell phone"
-            }
-        }
-    },
-    {
-        "prompt_en": "a sandwich and a book",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "sandwich and book"
-            }
-        }
-    },
-    {
-        "prompt_en": "an orange and a clock",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "orange and clock"
-            }
-        }
-    },
-    {
-        "prompt_en": "broccoli and a backpack",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "broccoli and backpack"
-            }
-        }
-    },
-    {
-        "prompt_en": "a carrot and an umbrella",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "carrot and umbrella"
-            }
-        }
-    },
-    {
-        "prompt_en": "a hot dog and a handbag",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "hot dog and handbag"
-            }
-        }
-    },
-    {
-        "prompt_en": "a pizza and a tie",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "pizzand tie"
-            }
-        }
-    },
-    {
-        "prompt_en": "a donut and a suitcase",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "donut and suitcase"
-            }
-        }
-    },
-    {
-        "prompt_en": "a cake and a vase",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "cake and vase"
-            }
-        }
-    },
-    {
-        "prompt_en": "an oven and scissors",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "oven and scissors"
-            }
-        }
-    },
-    {
-        "prompt_en": "a toaster and a teddy bear",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "toaster and teddy bear"
-            }
-        }
-    },
-    {
-        "prompt_en": "a microwave and a frisbee",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "microwave and frisbee"
-            }
-        }
-    },
-    {
-        "prompt_en": "a refrigerator and skis",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "refrigerator and skis"
-            }
-        }
-    },
-    {
-        "prompt_en": "a bicycle and an airplane",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bicycle and airplane"
-            }
-        }
-    },
-    {
-        "prompt_en": "a car and a train",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "car and train"
-            }
-        }
-    },
-    {
-        "prompt_en": "a motorcycle and a boat",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "motorcycle and boat"
-            }
-        }
-    },
-    {
-        "prompt_en": "a person and a toilet",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "person and toilet"
-            }
-        }
-    },
-    {
-        "prompt_en": "a person and a hair drier",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "person and hair drier"
-            }
-        }
-    },
-    {
-        "prompt_en": "a person and a toothbrush",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "person and toothbrush"
-            }
-        }
-    },
-    {
-        "prompt_en": "a person and a sink",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "person and sink"
-            }
-        }
-    },
-    {
-        "prompt_en": "a lamp and a bookshelf",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "lamp and bookshelf"
-            }
-        }
-    },
-    {
-        "prompt_en": "a book and a mug",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "book and mug"
-            }
-        }
-    },
-    {
-        "prompt_en": "a phone and a tablet",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "phone and tablet"
-            }
-        }
-    },
-    {
-        "prompt_en": "a clock and a picture frame",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "clock and picture frame"
-            }
-        }
-    },
-    {
-        "prompt_en": "a mug and a notebook",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "mug and notebook"
-            }
-        }
-    },
-    {
-        "prompt_en": "a pencil and a ruler",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "pencil and ruler"
-            }
-        }
-    },
-    {
-        "prompt_en": "a camera and a tripod",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "camerand tripod"
-            }
-        }
-    },
-    {
-        "prompt_en": "a plant and a window sill",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "plant and window sill"
-            }
-        }
-    },
-    {
-        "prompt_en": "a shoe and a hat",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "shoe and hat"
-            }
-        }
-    },
-    {
-        "prompt_en": "a wallet and a keychain",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "wallet and keychain"
-            }
-        }
-    },
-    {
-        "prompt_en": "a candle and a mirror",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "candle and mirror"
-            }
-        }
-    },
-    {
-        "prompt_en": "a scarf and a coat",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "scarf and coat"
-            }
-        }
-    },
-    {
-        "prompt_en": "a vase and a lamp",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "vase and lamp"
-            }
-        }
-    },
-    {
-        "prompt_en": "a headset and a smartphone",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "headset and smartphone"
-            }
-        }
-    },
-    {
-        "prompt_en": "a remote and a gaming console",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "remote and gaming console"
-            }
-        }
-    },
-    {
-        "prompt_en": "a notebook and a pen holder",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "notebook and pen holder"
-            }
-        }
-    },
-    {
-        "prompt_en": "a wallet and a sunglasses case",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "wallet and sunglasses case"
-            }
-        }
-    },
-    {
-        "prompt_en": "a bicycle and a helmet",
-        "dimension": [
-            "multiple_objects"
-        ],
-        "auxiliary_info": {
-            "multiple_objects": {
-                "object": "bicycle and helmet"
+                "object": "dog and skis"
             }
         }
     },
@@ -9278,8 +9057,14 @@
         "dimension": [
             "overall_consistency",
             "aesthetic_quality",
-            "imaging_quality"
-        ]
+            "imaging_quality",
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "oil painting"
+            }
+        }
     },
     {
         "prompt_en": "Yoda playing guitar on the stage",
@@ -9294,8 +9079,14 @@
         "dimension": [
             "overall_consistency",
             "aesthetic_quality",
-            "imaging_quality"
-        ]
+            "imaging_quality",
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "in the style of Ukiyo"
+            }
+        }
     },
     {
         "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh",
@@ -9570,40 +9361,618 @@
         ]
     },
     {
-        "prompt_en": "A serene mountain lake in autumn, reflections shimmering on water, in Monet style",
+        "prompt_en": "A sculpture made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A sculpture made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A sculpture made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A sculpture made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A sculpture made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A chair made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A chair made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A chair made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A chair made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A chair made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A table made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A table made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A table made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A table made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A table made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A vase made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A vase made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A vase made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A vase made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A vase made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A lamp made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A lamp made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A lamp made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A lamp made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A lamp made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bowl made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bowl made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bowl made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bowl made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bowl made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mirror made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mirror made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mirror made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mirror made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mirror made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A box made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A box made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A box made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A box made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A box made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bench made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bench made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bench made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bench made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bench made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A dog made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A dog made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A dog made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A dog made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A dog made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A clock made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A clock made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A clock made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A clock made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A clock made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cup made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cup made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cup made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cup made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cup made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cat made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cat made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cat made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cat made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cat made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cow made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cow made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cow made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cow made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A cow made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A basket made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A basket made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A basket made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A basket made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A basket made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bottle made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bottle made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bottle made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bottle made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A bottle made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A fork made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A fork made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A fork made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A fork made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A fork made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A knife made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A knife made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A knife made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A knife made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A knife made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A teapot made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A teapot made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A teapot made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A teapot made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A teapot made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mug made of wood",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mug made of metal",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mug made of plastic",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mug made of glass",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A mug made of soil",
+        "dimension": [
+            "material"
+        ]
+    },
+    {
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in Monet style"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A bustling city street at night, neon lights glowing, in cyberpunk style",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in cyberpunk style"
-            }
-        }
-    },
-    {
-        "prompt_en": "A tranquil forest path in summer, sunlight filtering through leaves, watercolor painting",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "watercolor painting"
-            }
-        }
-    },
-    {
-        "prompt_en": "A snowy village scene in winter, smoke rising from chimneys, oil painting",
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, oil painting",
         "dimension": [
             "appearance_style"
         ],
@@ -9614,73 +9983,7 @@
         }
     },
     {
-        "prompt_en": "A vibrant sunflower field in summer, bees buzzing around, in impressionist style",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in impressionist style"
-            }
-        }
-    },
-    {
-        "prompt_en": "A quiet countryside road in spring, blooming trees lining the path, in pastel colors",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in pastel colors"
-            }
-        }
-    },
-    {
-        "prompt_en": "A majestic waterfall cascading into a pool, surrounded by lush greenery, in realism",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in realism"
-            }
-        }
-    },
-    {
-        "prompt_en": "A desert landscape at sunset, dunes stretching to the horizon, in minimalistic style",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in minimalistic style"
-            }
-        }
-    },
-    {
-        "prompt_en": "A cozy cabin by the lake, smoke curling from the chimney, in rustic style",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in rustic style"
-            }
-        }
-    },
-    {
-        "prompt_en": "A lively marketplace in a historic town, colorful stalls and crowds, in folk art style",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in folk art style"
-            }
-        }
-    },
-    {
-        "prompt_en": "A foggy morning in a dense forest, mist enveloping the trees, black and white",
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, black and white",
         "dimension": [
             "appearance_style"
         ],
@@ -9691,981 +9994,937 @@
         }
     },
     {
-        "prompt_en": "A tropical island beach at sunset, palm trees silhouetted against the sky, in vibrant colors",
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in vibrant colors"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A starry night sky over a calm ocean, Milky Way visible, in astrophotography style",
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in astrophotography style"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A quaint European alleyway in spring, flowers blooming in window boxes, in vintage style",
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in vintage style"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A dramatic cliffside view overlooking the sea, waves crashing below, in expressionist style",
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in expressionist style"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A lively carnival with rides and lights, people enjoying the festivities, in animated style",
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in animated style"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A peaceful Zen garden with raked sand and stone arrangements, in traditional Japanese style",
+        "prompt_en": "The bund Shanghai, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in traditional Japanese style"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A bustling harbor with ships and cranes, under a cloudy sky, in steampunk style",
+        "prompt_en": "The bund Shanghai by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in steampunk style"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A golden wheat field swaying in the breeze, under a clear blue sky, in rustic oil painting",
+        "prompt_en": "The bund Shanghai, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in rustic oil painting"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A mystical enchanted forest with glowing flora, in fantasy art style",
+        "prompt_en": "The bund Shanghai, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in fantasy art style"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A serene lakeside dock at dawn, mist rising from the water, in soft pastel colors",
+        "prompt_en": "The bund Shanghai, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in soft pastel colors"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A vibrant coral reef teeming with marine life, in hyper-realistic style",
+        "prompt_en": "The bund Shanghai, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in hyper-realistic style"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A historic castle on a hill, surrounded by autumn foliage, in romanticism style",
+        "prompt_en": "The bund Shanghai, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in romanticism style"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A futuristic cityscape with towering skyscrapers, in sci-fi style",
+        "prompt_en": "The bund Shanghai, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in sci-fi style"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A peaceful meadow with wildflowers and butterflies, in delicate watercolor",
+        "prompt_en": "a shark is swimming in the ocean, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in delicate watercolor"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A dramatic lightning storm over a desert, in high contrast black and white",
+        "prompt_en": "a shark is swimming in the ocean, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in high contrast black and white"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A charming countryside barn surrounded by haystacks, in rustic farmhouse style",
+        "prompt_en": "a shark is swimming in the ocean by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in rustic farmhouse style"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A lively jazz club interior, musicians performing on stage, in noir style",
+        "prompt_en": "a shark is swimming in the ocean, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in noir style"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A tranquil koi pond with blooming lotus flowers, in traditional Asian ink painting",
+        "prompt_en": "a shark is swimming in the ocean, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in traditional Asian ink painting"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A vibrant autumn park scene with falling leaves, in impressionist brushwork",
+        "prompt_en": "a shark is swimming in the ocean, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in impressionist brushwork"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A serene beach at dawn, seashells scattered on the sand, in soft morning light",
+        "prompt_en": "a shark is swimming in the ocean, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in soft morning light"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A grand cathedral interior with stained glass windows, in gothic style",
+        "prompt_en": "a shark is swimming in the ocean, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in gothic style"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A peaceful riverbend surrounded by autumn trees, in realistic oil painting",
+        "prompt_en": "a shark is swimming in the ocean, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in realistic oil painting"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A bustling street market in Asia, lanterns lighting up the night, in vibrant colors",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in vibrant colors"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A quiet library with tall bookshelves and reading nooks, in classic illustration style",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in classic illustration style"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A lush vineyard during harvest season, in warm, rich tones",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "rich tones"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A solitary lighthouse on a rocky coast, waves crashing below, in dramatic lighting",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in dramatic lighting"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A vibrant spring garden with blooming tulips, in botanical illustration style",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in botanical illustration style"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A tranquil snowy forest path, footprints leading through the trees, in monochrome",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in monochrome"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A lively street parade with floats and dancers, in festive colors",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in festive colors"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A serene desert oasis with palm trees and a clear pool, in realistic detail",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in realistic detail"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A picturesque harbor at twilight, boats gently swaying, in romantic hues",
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in romantic hues"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A tranquil bamboo forest with sunlight streaming through, in minimalist style",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in minimalist style"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A bustling urban skyline during sunset, skyscrapers reflecting light, in modern art style",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in modern art style"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A peaceful rural landscape with rolling hills and grazing sheep, in pastoral style",
+        "prompt_en": "A cute happy Corgi playing in park, sunset by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in pastoral style"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A vibrant underwater scene with colorful fish and coral, in vivid colors",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in vivid colors"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A serene mountain peak covered in snow, under a clear blue sky, in fine detail",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in fine detail"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A lively beach volleyball game on a sunny day, in dynamic action style",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in dynamic action style"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A tranquil morning in a Japanese tea garden, cherry blossoms in bloom, in traditional style",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in traditional style"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A bustling train station with travelers and steam engines, in vintage sepia tones",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in vintage sepia tones"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A peaceful autumn forest with a carpet of fallen leaves, in soft watercolor",
+        "prompt_en": "A cute happy Corgi playing in park, sunset, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in soft watercolor"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A dramatic volcanic landscape with flowing lava, in intense colors",
+        "prompt_en": "Gwen Stacy reading a book, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in intense colors"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A charming seaside village with colorful houses, in quaint illustration style",
+        "prompt_en": "Gwen Stacy reading a book, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in quaint illustration style"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A serene twilight scene with fireflies in a meadow, in magical realism",
+        "prompt_en": "Gwen Stacy reading a book by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in magical realism"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A vibrant autumn harvest scene with pumpkins and gourds, in rich earthy tones",
+        "prompt_en": "Gwen Stacy reading a book, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in rich earthy tones"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A tranquil snowy mountain lake, perfectly still water reflecting the peaks, in hyper-realistic style",
+        "prompt_en": "Gwen Stacy reading a book, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in hyper-realistic style"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A lively street café in Paris, people enjoying their coffee, in romantic impressionism",
+        "prompt_en": "Gwen Stacy reading a book, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in romantic impressionism"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A peaceful riverside bench surrounded by blooming flowers, in soft pastel hues",
+        "prompt_en": "Gwen Stacy reading a book, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in soft pastel hues"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A dramatic seascape with towering waves and dark clouds, in moody tones",
+        "prompt_en": "Gwen Stacy reading a book, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in moody tones"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A vibrant spring festival with colorful banners and lanterns, in festive illustration style",
+        "prompt_en": "Gwen Stacy reading a book, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in festive illustration style"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A serene sunrise over a misty valley, in soft, ethereal colors",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "ethereal colors"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A bustling fish market at dawn, fresh catches displayed, in detailed realism",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in detailed realism"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A tranquil garden pond with lily pads and dragonflies, in delicate watercolor",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in delicate watercolor"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A vibrant cityscape at night with illuminated skyscrapers, in neon colors",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in neon colors"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A peaceful countryside farmhouse surrounded by blooming gardens, in rustic charm style",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in rustic charm style"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A dramatic thunderstorm over a vast plain, in high contrast and dark tones",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in high contrast and dark tones"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A lively street art scene with colorful murals and graffiti, in urban art style",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in urban art style"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A serene snowy evening with twinkling lights on houses, in cozy tones",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in cozy tones"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A vibrant spring meadow with butterflies and wildflowers, in bright, cheerful colors",
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "cheerful colors"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A tranquil mountain stream with clear, flowing water, in naturalistic detail",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in naturalistic detail"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A bustling harbor at sunrise with fishing boats, in warm morning hues",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in warm morning hues"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A peaceful forest glade with sunbeams piercing through the canopy, in enchanting style",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in enchanting style"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A vibrant autumn skyline with colorful leaves and falling petals, in expressive brushwork",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in expressive brushwork"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A serene coastal lighthouse under a starry night, in celestial tones",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in celestial tones"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A lively summer carnival with rides and games, in joyful, vibrant colors",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "vibrant colors"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A tranquil winter landscape with snow-covered trees and a frozen pond, in serene tones",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in serene tones"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A dramatic canyon view with layered rock formations, in bold, striking colors",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "striking colors"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A vibrant spring orchard with blossoming fruit trees, in fresh, lively hues",
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "lively hues"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A peaceful lakeside sunset with silhouettes of trees, in warm, glowing colors",
+        "prompt_en": "An astronaut flying in space, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "glowing colors"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A bustling urban park with people enjoying the day, in dynamic, colorful style",
+        "prompt_en": "An astronaut flying in space, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "colorful style"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A serene desert sunset with vibrant orange and pink skies, in dramatic hues",
+        "prompt_en": "An astronaut flying in space by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in dramatic hues"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A lively street fair with colorful tents and entertainers, in festive illustration style",
+        "prompt_en": "An astronaut flying in space, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in festive illustration style"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A tranquil snowy mountain scene with a clear blue sky, in crisp, detailed realism",
+        "prompt_en": "An astronaut flying in space, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "detailed realism"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A vibrant autumn forest with golden leaves and winding paths, in rich, warm tones",
+        "prompt_en": "An astronaut flying in space, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "warm tones"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A peaceful riverside picnic setup with blankets and baskets, in inviting, cozy style",
+        "prompt_en": "An astronaut flying in space, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "cozy style"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A dramatic coastal cliff during a storm, waves crashing fiercely, in intense colors",
+        "prompt_en": "An astronaut flying in space, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in intense colors"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A vibrant spring sunrise over blooming fields, in radiant, uplifting hues",
+        "prompt_en": "An astronaut flying in space, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "uplifting hues"
+                "appearance_style": "surrealism style"
             }
         }
     },
     {
-        "prompt_en": "A serene night scene with a full moon over a quiet lake, in luminous tones",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, Van Gogh style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in luminous tones"
+                "appearance_style": "Van Gogh style"
             }
         }
     },
     {
-        "prompt_en": "A lively urban skyline with colorful lights reflecting on water, in modern art style",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, oil painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in modern art style"
+                "appearance_style": "oil painting"
             }
         }
     },
     {
-        "prompt_en": "A peaceful garden bench surrounded by flowering plants, in soft, harmonious colors",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks by Hokusai, in the style of Ukiyo",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "harmonious colors"
+                "appearance_style": "in the style of Ukiyo"
             }
         }
     },
     {
-        "prompt_en": "A dramatic winter storm over a frozen landscape, in stark, powerful tones",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, black and white",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "powerful tones"
+                "appearance_style": "black and white"
             }
         }
     },
     {
-        "prompt_en": "A vibrant springtime park with blooming flowers and green lawns, in cheerful colors",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pixel art",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in cheerful colors"
+                "appearance_style": "pixel art"
             }
         }
     },
     {
-        "prompt_en": "A tranquil sunrise over a calm ocean, with gentle waves and pastel skies, in serene style",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, in cyberpunk style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in serene style"
+                "appearance_style": "in cyberpunk style"
             }
         }
     },
     {
-        "prompt_en": "A lively street market with vibrant stalls and bustling crowds, in energetic illustration style",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, animated style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in energetic illustration style"
+                "appearance_style": "animated style"
             }
         }
     },
     {
-        "prompt_en": "A peaceful snowy cabin in the woods, smoke rising from the chimney, in cozy, warm tones",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, watercolor painting",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "warm tones"
+                "appearance_style": "watercolor painting"
             }
         }
     },
     {
-        "prompt_en": "A dramatic sunset over rolling hills, with shadows stretching long, in striking colors",
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, surrealism style",
         "dimension": [
             "appearance_style"
         ],
         "auxiliary_info": {
             "appearance_style": {
-                "appearance_style": "in striking colors"
-            }
-        }
-    },
-    {
-        "prompt_en": "A vibrant spring garden with a variety of colorful blooms, in lush, detailed style",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "detailed style"
-            }
-        }
-    },
-    {
-        "prompt_en": "A serene evening by the river with lanterns floating on water, in magical tones",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in magical tones"
-            }
-        }
-    },
-    {
-        "prompt_en": "A lively urban street at twilight with illuminated signs, in dynamic, colorful style",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "colorful style"
-            }
-        }
-    },
-    {
-        "prompt_en": "A peaceful dawn in a misty valley, with soft light and tranquil atmosphere, in ethereal watercolor",
-        "dimension": [
-            "appearance_style"
-        ],
-        "auxiliary_info": {
-            "appearance_style": {
-                "appearance_style": "in ethereal watercolor"
+                "appearance_style": "surrealism style"
             }
         }
     }

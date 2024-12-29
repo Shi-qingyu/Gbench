@@ -28,7 +28,7 @@ for txt_file in prompt_root.iterdir():
     
     with distributed_state.split_between_processes(prompt_list, apply_padding=True) as prompts:
         for prompt in prompts:
-            for i in range(1):
+            for i in range(5):
                 save_name = prompt + "-" + str(i) + ".mp4"
                 save_path = dimension_root.joinpath(save_name)
                 if save_path.is_file():
