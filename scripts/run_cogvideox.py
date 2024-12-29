@@ -14,8 +14,8 @@ pipe.vae.enable_tiling()
 distributed_state = PartialState()
 pipe.to(distributed_state.device)
 
-prompt_root = Path("prompts/my_prompts_per_dimension")
-save_root = Path("sampled_videos/cogvideox-5b_")
+prompt_root = Path("FVD/prompts")
+save_root = Path("sampled_videos/cogvideox-5b")
 save_root.mkdir(exist_ok=True)
 
 for txt_file in prompt_root.iterdir():
@@ -24,17 +24,15 @@ for txt_file in prompt_root.iterdir():
     dimension_root.mkdir(exist_ok=True)
 
     with open(txt_file.as_posix(), "r") as file:
-        prompts = file.read().splitlines()
+        prompt_list = file.read().splitlines()
     
-    for i in range(0, len(prompts), 2):
-        _prompts = prompts[i: i+2]
-        with distributed_state.split_between_processes(_prompts, apply_padding=True) as prompt:
-            prompt = prompt[0]
-            for i in range(5):
+    with distributed_state.split_between_processes(prompt_list, apply_padding=True) as prompts:
+        for prompt in prompts:
+            for i in range(1):
                 save_name = prompt + "-" + str(i) + ".mp4"
                 save_path = dimension_root.joinpath(save_name)
                 if save_path.is_file():
-                    break
+                    continue
                 else:
                     generator = torch.Generator(distributed_state.device).manual_seed(i)
                     image = pipe(

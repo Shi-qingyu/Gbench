@@ -7764,7 +7764,7 @@
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "zebra and giraffe"
+                "object": "zebrand giraffe"
             }
         }
     },
@@ -7907,7 +7907,7 @@
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "umbrella and handbag"
+                "object": "umbrelland handbag"
             }
         }
     },
@@ -8347,7 +8347,7 @@
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "banana and keyboard"
+                "object": "bananand keyboard"
             }
         }
     },
@@ -8424,7 +8424,7 @@
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "pizza and tie"
+                "object": "pizzand tie"
             }
         }
     },
@@ -8644,7 +8644,7 @@
         ],
         "auxiliary_info": {
             "multiple_objects": {
-                "object": "camera and tripod"
+                "object": "camerand tripod"
             }
         }
     },

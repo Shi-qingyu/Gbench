@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the model list
-models=("cogvideox-2b")
+models=("cogvideox-5b")
 
 # Define the dimension list
 dimensions=("subject_consistency" "background_consistency" "aesthetic_quality" "imaging_quality" "object_class" "multiple_objects" "color" "spatial_relationship" "scene" "temporal_style" "overall_consistency" "human_action" "temporal_flickering" "motion_smoothness" "dynamic_degree" "appearance_style")

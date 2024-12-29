@@ -77,24 +77,3 @@ scissors
 a teddy bear
 a hair drier
 a toothbrush
-a lamp
-a bookshelf
-a mirror
-a rug
-a pillow
-a blanket
-a curtain
-a picture frame
-a candle
-a fan
-a stapler
-a printer
-an umbrella
-a broom
-a mop
-a trash can
-a screwdriver
-a hammer
-a kettle
-a blender
-a globe
