@@ -1,11 +1,14 @@
 import os
 import json
 import shutil
+import requests
 from pathlib import Path
 
 ATHLETICS = ['HighJump', 'JavelinThrow', 'LongJump', 'Shotput', 'PoleVault', 'ThrowDiscus']
 INSTRUMENTS = ['PlayingCello', 'PlayingDaf', 'PlayingDhol', 'PlayingFlute', 'PlayingGuitar', 'PlayingPiano', 'PlayingSitar', 'PlayingTabla', 'PlayingViolin']
 WATER_SPORTS = ['Diving', 'CliffDiving', 'Rowing', 'Kayaking', 'Surfing']
+
+API_KEY = 'IBgrF0SctWyiA5Il0xlldjLjXjkSwk8wVwCn3Y1CFDRne9OM3CGSz0qb'
 
 def write_video_to_txt():
     root = Path("/data/datasets/VideoBoothDataset/webvid_parsing_videobooth_subset/")
@@ -121,7 +124,7 @@ def prepare_t2v_full_info():
 
 
 def prepare_i2v_full_info():
-    root = Path("I2V")
+    root = Path("prompts/image_prompts")
 
     for category in root.iterdir():
         full_info = []
@@ -143,5 +146,48 @@ def prepare_i2v_full_info():
         with open(save_path.as_posix(), "w") as file:
             json.dump(full_info, file, indent=4)
 
+headers = {
+    'Authorization': API_KEY
+}
+
+def search_images(query, num_images=10):
+    url = f'https://api.pexels.com/v1/search?query={query}&per_page={num_images}'
+    response = requests.get(url, headers=headers)
+    data = response.json()
+    images = data['photos']
+    return images
+
+
+def save_image(image_url, image_name):
+    img_data = requests.get(image_url).content
+    with open(image_name, 'wb') as img_file:
+        img_file.write(img_data)
+    print(f"Saved image as {image_name}")
+
+def search_and_save_image(query, num_images, save_dir):
+    os.makedirs(save_dir, exist_ok=True)
+    images = search_images(query, num_images)
+    for i, img in enumerate(images):
+        image_url = img['src']['original']
+        image_name = os.path.join(save_dir, f"{i}.jpg")
+        save_image(image_url, image_name)
+
+
+from torchvision.transforms import Resize, RandomCrop, Compose
+from PIL import Image
+
+def process_image(imagedir):
+    transforms = Compose([
+        Resize(size=480),
+        RandomCrop(size=(480, 720), pad_if_needed=True),
+    ])
+    imagedir = Path(imagedir)
+    for image in imagedir.iterdir():
+        image_path = image.as_posix()
+        image = Image.open(image_path)
+        image = transforms(image)
+        image.save(image_path)
+    
+
 if __name__ == "__main__":
-    prepare_t2v_full_info()
+    process_image("prompts/image_prompts/Weather")

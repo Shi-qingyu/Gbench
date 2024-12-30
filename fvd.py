@@ -61,10 +61,10 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = I3DFeatureExtractor().to(device)
 model.eval()
 
-real_video_dir = './FVD/real_videos/human'
+real_video_dir = './FVD/real_videos/athletics'
 real_features = get_dataset_features(real_video_dir, model, device)
 
-generated_video_dir = './sampled_videos/cogvideox-5b/human'
+generated_video_dir = './sampled_videos/cogvideox-5b/athletics'
 generated_features = get_dataset_features(generated_video_dir, model, device)
 
 mu_real = mean(real_features, axis=0)
