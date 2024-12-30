@@ -14,7 +14,7 @@ pipe.vae.enable_tiling()
 distributed_state = PartialState()
 pipe.to(distributed_state.device)
 
-prompt_root = Path("FVD/prompts")
+prompt_root = Path("prompts/my_prompts_per_dimension")
 save_root = Path("sampled_videos/cogvideox-5b")
 save_root.mkdir(exist_ok=True)
 

@@ -176,6 +176,6 @@ prepublish-ci/*
 vbench2_beta_i2v/data
 
 evaluation_results
-crop
+sampled_videos
 I2V
 FVD
