@@ -127,24 +127,27 @@ def prepare_i2v_full_info():
     root = Path("prompts/image_prompts")
 
     for category in root.iterdir():
-        full_info = []
-        image_dir = category.joinpath("1-1")
-        for image in image_dir.iterdir():
-            prompt = image.stem
-            dimension = [
-                "subject_consistency",
-                "overall_consistency",
-                "dynamic_degree",
-                "motion_smoothness"
-            ]
-            case = {
-                "prompt_en": prompt,
-                "dimension": dimension,
-            }
-            full_info.append(case)
-        save_path = category.joinpath("full_info.json")
-        with open(save_path.as_posix(), "w") as file:
-            json.dump(full_info, file, indent=4)
+        if category.is_dir():
+            full_info = []
+            image_dir = category.joinpath("1-1")
+            if not image_dir.is_dir():
+                image_dir = category
+            for image in image_dir.iterdir():
+                prompt = image.stem
+                dimension = [
+                    "subject_consistency",
+                    "overall_consistency",
+                    "dynamic_degree",
+                    "motion_smoothness"
+                ]
+                case = {
+                    "prompt_en": prompt,
+                    "dimension": dimension,
+                }
+                full_info.append(case)
+            save_path = category.joinpath("full_info.json")
+            with open(save_path.as_posix(), "w") as file:
+                json.dump(full_info, file, indent=4)
 
 headers = {
     'Authorization': API_KEY
@@ -190,4 +193,20 @@ def process_image(imagedir):
     
 
 if __name__ == "__main__":
-    process_image("prompts/image_prompts/Weather")
+    full_info_file = "prompts/image_prompts/Weather/full_info.json"
+    prompt_file = "prompts/image_prompts/weather.json"
+
+    with open(full_info_file, "r") as f:
+        full_info = json.load(f)
+    
+    with open(prompt_file, "r") as f:
+        idx2prompts = json.load(f)
+    
+    for info in full_info:
+        idx = info["prompt_en"]
+        prompt = idx2prompts[idx+".jpg"]
+        info["prompt_en"] = prompt
+
+    os.remove(full_info_file)
+    with open(full_info_file, "r") as f:
+        json.dump(full_info, f)

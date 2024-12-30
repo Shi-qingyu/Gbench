@@ -7,7 +7,7 @@ models=("cogvideox-5b-i2v")
 dimensions=("subject_consistency" "overall_consistency" "motion_smoothness" "dynamic_degree")
 
 # Corresponding folder names
-category="Vehicle"
+category="Architecture"
 folders=(${category} ${category} ${category} ${category})
 
 # Base path for videos
