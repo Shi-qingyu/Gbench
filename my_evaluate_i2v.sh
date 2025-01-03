@@ -26,6 +26,6 @@ for model in "${models[@]}"; do
         echo "$dimension $videos_path"
 
         # Run the evaluation script
-        python -W ignore evaluate.py --full_json_dir "I2V/${folder}/full_info.json" --videos_path $videos_path --dimension $dimension --output_path "./evaluation_results/${model}/${folders[i]}"
+        python -W ignore evaluate.py --full_json_dir "prompts/image_prompts/${folder}/full_info.json" --videos_path $videos_path --dimension $dimension --output_path "./evaluation_results/${model}/${folders[i]}"
     done
 done

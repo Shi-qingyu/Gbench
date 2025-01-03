@@ -9,13 +9,13 @@ from tqdm import tqdm
 import torch
 
 
-pipe = CogVideoXPipeline.from_pretrained("THUDM/CogVideoX-5b", torch_dtype=torch.bfloat16)
+pipe = CogVideoXPipeline.from_pretrained("THUDM/CogVideoX-2b", torch_dtype=torch.bfloat16)
 pipe.vae.enable_tiling()
 distributed_state = PartialState()
 pipe.to(distributed_state.device)
 
-prompt_root = Path("prompts/my_prompts_per_dimension")
-save_root = Path("sampled_videos/cogvideox-5b")
+prompt_root = Path("FVD/prompts")
+save_root = Path("sampled_videos/cogvideox-2b")
 save_root.mkdir(exist_ok=True)
 
 for txt_file in prompt_root.iterdir():

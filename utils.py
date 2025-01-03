@@ -10,6 +10,46 @@ WATER_SPORTS = ['Diving', 'CliffDiving', 'Rowing', 'Kayaking', 'Surfing']
 
 API_KEY = 'IBgrF0SctWyiA5Il0xlldjLjXjkSwk8wVwCn3Y1CFDRne9OM3CGSz0qb'
 
+import decord
+decord.bridge.set_bridge("torch")
+
+from diffusers.utils import export_to_video
+
+import os
+from tqdm import tqdm
+import numpy as np
+from PIL import Image
+from copy import deepcopy
+
+from torchvision.io import write_png
+from torchvision.utils import make_grid
+
+
+def video2frame(video_path):
+    video_reader = decord.VideoReader(video_path)
+    batch_ids = list(range(len(video_reader)))
+
+    frames = video_reader.get_batch(batch_ids)
+    print(frames.shape)
+
+    frames_dir = video_path[:-4]
+    os.makedirs(frames_dir, exist_ok=True)
+
+    start_frame = frames[0].permute(2, 0, 1)
+    end_frame = frames[-1].permute(2, 0, 1)
+    mid_frame = frames[len(frames) // 3].permute(2, 0, 1)
+    mid_frame2 = frames[len(frames) // 3 * 2].permute(2, 0, 1)
+
+    frames = make_grid([start_frame, mid_frame, mid_frame2, end_frame], pad_value=255, padding=5)
+    write_png(frames, "test.jpg")
+
+    # for i in range(len(frames)):
+    #     frame = frames[i]
+    #     frame = frame.permute(2, 0, 1)
+    #     filename = os.path.join(frames_dir, f"{i}.png")
+    #     write_png(frame, filename)
+
+
 def write_video_to_txt():
     root = Path("/data/datasets/VideoBoothDataset/webvid_parsing_videobooth_subset/")
     video_root = Path("/data/datasets/VideoBoothDataset/videos")
@@ -193,20 +233,24 @@ def process_image(imagedir):
     
 
 if __name__ == "__main__":
-    full_info_file = "prompts/image_prompts/Weather/full_info.json"
-    prompt_file = "prompts/image_prompts/weather.json"
+    full_info_file = "prompts/image_prompts/Pet/full_info.json"
+    prompt_file = "prompts/image_prompts/pet.json"
 
     with open(full_info_file, "r") as f:
-        full_info = json.load(f)
+        full_info: list = json.load(f)
     
     with open(prompt_file, "r") as f:
-        idx2prompts = json.load(f)
+        idx2prompts: dict = json.load(f)
     
+    new_full_info = []
     for info in full_info:
+        new_info = deepcopy(info)
         idx = info["prompt_en"]
-        prompt = idx2prompts[idx+".jpg"]
-        info["prompt_en"] = prompt
+        prompt = idx2prompts[idx + ".jpg"]
+        new_info["prompt_en"] = prompt
+        new_full_info.append(new_info)
 
     os.remove(full_info_file)
-    with open(full_info_file, "r") as f:
-        json.dump(full_info, f)
+    with open(full_info_file, "w") as f:
+        json.dump(new_full_info, f, indent=4)
+    # video2frame("sampled_videos/cogvideox-5b-i2v/Pet/A brown dog with a black collar sits on a dirt path in a forest, looking up at the camera.-0.mp4")

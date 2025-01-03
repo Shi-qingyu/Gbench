@@ -12,11 +12,11 @@ import torch
 pipe = DiffusionPipeline.from_pretrained(
     "cerspense/zeroscope_v2_576w",
     torch_dtype=torch.float16
-).to("cuda")
+)
 distributed_state = PartialState()
 pipe.to(distributed_state.device)
 
-prompt_root = Path("prompts/my_prompts_per_dimension")
+prompt_root = Path("FVD/prompts")
 save_root = Path("sampled_videos/zeroscope")
 save_root.mkdir(exist_ok=True)
 
@@ -31,7 +31,7 @@ for txt_file in prompt_root.iterdir():
     with distributed_state.split_between_processes(prompt_list, apply_padding=True) as prompts:
         for prompt in tqdm(prompts):
             for i in range(5):
-                generator = torch.Generator("cuda").manual_seed(i)
+                generator = torch.Generator(distributed_state.device).manual_seed(i)
                 image = pipe(
                     prompt,
                     num_inference_steps=30, 
